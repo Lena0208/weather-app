@@ -14,7 +14,7 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       city: response.data.name,
       icon: `https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png`,
-      date: "Tuesday",
+      date: "Tuesday 11:58",
     });
   }
 
@@ -69,11 +69,9 @@ export default function Weather(props) {
             <br />
             <span id="blockDate">
               Last updated: {""}
-              <span id="current-day">
+              <span id="current-date">
                 {weatherData.date} {""}
               </span>
-              {""}
-              <span id="current-time">11:58</span>
               <br />
               <span id="description">{weatherData.description}</span>
               <br />
