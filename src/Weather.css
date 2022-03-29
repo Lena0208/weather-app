@@ -1,0 +1,93 @@
+body {
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+.container {
+  text-align: center;
+  border: 1px solid #f0e7e0;
+  border-radius: 10px;
+  padding: 30px 60px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  max-width: 800px;
+  background: white;
+  color: #616161;
+}
+
+.submit {
+  background: #96c7c1;
+  border: #96c7c1;
+  font-family: "Indie Flower", cursive;
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+}
+
+.justify-content-between {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#icon {
+  position: relative;
+  top: -27px;
+}
+
+#actualTemp {
+  font-family: "Indie Flower", cursive;
+  font-family: "Quicksand", sans-serif;
+  font-size: 85px;
+}
+
+#weather-unit {
+  font-family: "Indie Flower", cursive;
+  font-family: "Quicksand", sans-serif;
+  position: relative;
+  font-size: 23px;
+  top: -41px;
+}
+
+#celcius {
+  text-decoration: none;
+  color: grey;
+  font-size: 29px;
+}
+
+#cityDate {
+  font-family: "Indie Flower", cursive;
+  font-family: "Quicksand", sans-serif;
+  font-size: 32px;
+  line-height: 0.8;
+  text-align: right;
+}
+
+#actualCity {
+  font-family: "Indie Flower", cursive;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: #96c7c1;
+  font-size: 32px;
+  line-height: 1;
+  text-align: right;
+}
+
+#blockDate {
+  font-size: 18px;
+  text-align: right;
+  line-height: 1;
+}
+
+.humidity {
+  color: #96c7c1;
+}
+
+#percent {
+  color: #96c7c1;
+}
+
+.wind {
+  color: #96c7c1;
+}
+
+#wind-speed {
+  color: #96c7c1;
+}
