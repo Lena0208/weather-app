@@ -13,7 +13,7 @@ export default function App() {
             href="https://github.com/Lena0208/weatherApp-sheCodesPlus"
             target="_blank"
             rel="noreferrer"
-            className="gitHubLink"
+            className="Link"
           >
             open-sourced on GitHub
           </a>
@@ -22,7 +22,7 @@ export default function App() {
             href="https://www.linkedin.com/in/lena-berger-316849197/"
             target="_blank"
             rel="noreferrer"
-            id="footerName"
+            className="Link"
           >
             Lena Berger
           </a>
