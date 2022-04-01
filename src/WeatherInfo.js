@@ -1,18 +1,16 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherIcon from "./WeatherIcon";
+import "./WeatherInfo.css";
 
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
       <div className="row justify-content-between">
         <div className="col-6" id="temp">
-          <img src={props.data.icon} id="icon" alt={props.data.description} />
+          <WeatherIcon code={props.data.icon} alt={props.data.description} />
           <span id="actualTemp">{Math.round(props.data.temperature)}</span>
-          <span id="weather-unit">
-            <a href="#" id="celcius">
-              °C
-            </a>
-          </span>
+          <span id="celcius">°C</span>
         </div>
         <div className="col-6" id="cityDate">
           <div id="actual-city">{props.data.city}</div>
