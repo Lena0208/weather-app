@@ -1,27 +1,11 @@
-.col-4 {
+.WeatherForecast {
   font-size: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.forecastDate {
-  font-size: 20px;
-}
-
-#forecastIcon {
-  max-width: 75%;
-}
-
-.temp-max {
-  font-size: 19px;
-}
-.temp-min {
-  color: #96c7c1;
-  font-size: 19px;
-}
-
-.col-3 {
+.col {
   border: 1px solid #96c7c1;
   border-radius: 4px;
   padding-top: 7px;
