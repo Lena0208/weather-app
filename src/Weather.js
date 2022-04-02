@@ -53,7 +53,7 @@ export default function Weather(props) {
                 onChange={handleCityChange}
               />
             </div>
-            <div id="submit" class="col-sm">
+            <div id="submit" className="col-sm">
               <input
                 type="submit"
                 className="form-control submit"
@@ -61,7 +61,7 @@ export default function Weather(props) {
                 aria-label="search"
               />
             </div>
-            <div id="currentBtn" class="col-sm">
+            <div id="currentBtn" className="col-sm">
               <input
                 type="button"
                 className="form-control submit"
