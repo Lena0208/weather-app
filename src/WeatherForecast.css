@@ -8,11 +8,11 @@
 .col {
   border: 1px solid #96c7c1;
   border-radius: 4px;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding: 10px 40px;
   font-size: 18px;
   font-family: "Indie Flower", cursive;
   font-family: "Quicksand", sans-serif;
+  margin-right: 7px;
 }
 
 .min-temp {
