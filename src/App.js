@@ -11,7 +11,7 @@ export default function App() {
       <footer>
         This project is {""}
         <a
-          href="https://github.com/Lena0208/weatherApp-sheCodesPlus"
+          href="https://github.com/Lena0208/weather-app"
           target="_blank"
           rel="noreferrer"
           className="Link"
