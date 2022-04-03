@@ -41,8 +41,8 @@ export default function Weather(props) {
     return (
       <div>
         <form onSubmit={handleSubmit} id="search">
-          <div className="row g-3">
-            <div className="col-sm-7">
+          <div className="row g-2">
+            <div className="col-sm-9">
               <input
                 type="text"
                 className="form-control search"
@@ -59,14 +59,6 @@ export default function Weather(props) {
                 className="form-control submit"
                 value="Search"
                 aria-label="search"
-              />
-            </div>
-            <div id="currentBtn" className="col-sm">
-              <input
-                type="button"
-                className="form-control submit"
-                value="📍 Current"
-                aria-label="current"
               />
             </div>
           </div>
